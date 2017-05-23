@@ -21,12 +21,6 @@
   "bugs": {
     "url": "https://github.com/whitlockjc/json-refs/issues"
   },
-  "files": [
-    "bin",
-    "dist",
-    "index.d.ts",
-    "index.js"
-  ],
   "types": "./index.d.ts",
   "homepage": "https://github.com/whitlockjc/json-refs",
   "license": "MIT",
