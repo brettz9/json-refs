@@ -22,8 +22,6 @@
  * THE SOFTWARE.
  */
 
-'use strict';
-
 var $ = require('gulp-load-plugins')({
   rename: {
     'gulp-jsdoc-to-markdown': 'jsdoc2MD'
@@ -135,7 +133,7 @@ gulp.task('snyk', function (done) {
 gulp.task('test-node', function (done) {
   return new Promise(function (resolve, reject) {
     gulp.src([
-      'index.js'
+      './dist/json-refs-min.js'
     ])
     .pipe($.istanbul({includeUntested: true}))
     .pipe($.istanbul.hookRequire()) // Force `require` to return covered files

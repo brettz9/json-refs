@@ -24,8 +24,6 @@
  * THE SOFTWARE.
  */
 
-'use strict';
-
 var _ = require('lodash');
 var assert = require('assert');
 var cp = require('child_process');
